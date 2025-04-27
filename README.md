@@ -44,10 +44,13 @@ You can **create**, **view**, and **delete** notes.
       - NoteScreen.tsx
       - NoteCard.tsx
       - noteSlice.ts
+      - noteService.ts
+      - types.tsx
   /navigation
     - AppNavigator.tsx
   /redux
     - store.ts
+    - rootReducer.ts
   /services
     - supabaseClient.ts
   /components
