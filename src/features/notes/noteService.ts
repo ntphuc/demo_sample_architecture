@@ -2,8 +2,6 @@ import { supabaseClient } from '../../services/supabaseClient';
 
 export const fetchNotes = async () => {
   const { data, error } = await supabaseClient.from('notes').select('*');
-  console.log('fetchNotes data', data);
-  console.log('fetchNotes error', error);
   if (error) throw error;
   return data;
 };
@@ -14,9 +12,6 @@ export const addNote = async (note: { title: string; content: string }) => {
     .insert([note])
     .select()
     .single();
-  
-  console.log('addNote data', data);
-  console.log('addNote error', error);
   if (error) throw error;
   return data;
 };
