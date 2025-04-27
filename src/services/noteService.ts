@@ -1,4 +1,4 @@
-import { supabaseClient } from '../../services/supabaseClient';
+import { supabaseClient } from './supabaseClient';
 
 export const fetchNotes = async () => {
   const { data, error } = await supabaseClient.from('notes').select('*');

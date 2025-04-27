@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, FlatList, StyleSheet } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import { Button, Input } from 'react-native-elements';
-import { fetchNotes, createNote, deleteNoteById } from './noteSlice';
+import { fetchNotes, createNote, deleteNoteById } from '../../redux/noteSlice';
 import { RootState, AppDispatch } from '../../redux/store';
 import NoteCard from './NoteCard';
 import Loading from '../../components/Loading';

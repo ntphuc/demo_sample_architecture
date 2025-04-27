@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
-import { Note, NoteState, CreateNoteDTO } from './types';
-import * as noteService from './noteService';
+import { Note, NoteState, CreateNoteDTO } from '../features/notes/types';
+import * as noteService from '../services/noteService';
 
 const initialState: NoteState = {
   notes: [],
