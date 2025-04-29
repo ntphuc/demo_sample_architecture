@@ -1,7 +1,7 @@
 import * as noteService from '../noteService';
 import { supabaseClient } from '../../../services/supabaseClient';
 
-jest.mock('../../services/supabaseClient', () => ({
+jest.mock('../../../services/supabaseClient', () => ({
   supabaseClient: {
     from: jest.fn().mockReturnThis(),
     select: jest.fn(),
