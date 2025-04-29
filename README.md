@@ -8,7 +8,7 @@ You can **create**, **view**, and **delete** notes.
 
 ## ✨ Features
 
-- Create new notes
+- Create new notes 
 - View list of existing notes
 - Delete notes
 - Persist data using Supabase backend
@@ -86,6 +86,8 @@ App.tsx
    ```
 
 ---
+
+Add test 
 
 ## 📜 License
 
