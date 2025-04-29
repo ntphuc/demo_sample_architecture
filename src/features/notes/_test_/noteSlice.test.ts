@@ -1,4 +1,4 @@
-import noteReducer, { fetchNotes, createNote, deleteNoteById } from './noteSlice';
+import noteReducer, { fetchNotes, createNote, deleteNoteById } from '../noteSlice';
 
 const initialState = {
   notes: [],

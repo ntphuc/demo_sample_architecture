@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
-import NoteCard from './NoteCard';
+import NoteCard from '../NoteCard';
 
 describe('NoteCard', () => {
   it('renders title and content', () => {
